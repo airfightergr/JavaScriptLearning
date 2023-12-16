@@ -71,6 +71,7 @@ function createCircle(name, radius) {
    
 }
 
+// Create 2 obj
 const circle1 = createCircle('Circle 1', 5);
 const circle2 = createCircle('Circle 2', 10);
 
@@ -78,7 +79,11 @@ console.log('Perimeter of ' + circle1.name + ' is: ' +
     new Intl.NumberFormat("gr", {style: "unit", unit: "meter", maximumFractionDigits: 2}).format(circle1.perim)
     + ', and the area is: ' +
     new Intl.NumberFormat("gr-In", {style: "unit", unit: "meter", maximumFractionDigits: 2}).format(circle1.area) + '2');
-    console.log('Perimeter of ' + circle2.name + ' is: ' +
+
+console.log('Perimeter of ' + circle2.name + ' is: ' +
     new Intl.NumberFormat("gr", {style: "unit", unit: "meter", maximumFractionDigits: 2}).format(circle2.perim)
     + ', and the area is: ' +
     new Intl.NumberFormat("gr-In", {style: "unit", unit: "meter", maximumFractionDigits: 2}).format(circle2.area) + '2');
+
+
+
