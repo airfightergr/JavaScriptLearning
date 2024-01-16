@@ -6,15 +6,12 @@
   <title>Contact Form</title>
   <link rel="stylesheet" href="style_contact.css">
 
-
-
 </head>
-
 <body>
-
-<h2 style='text-align:center'>Contact Form</h2>
+<h2 style='text-align:center'>World's Finest Contact Form</h2>
+<h3 style='text-align:center'>by Ilias Tselios</h3>
  
-  <div class="container">
+  <div class="container" id="form1">
     <form>
 
       <label for="fname">First Name</label><br>
@@ -30,16 +27,19 @@
         <option value="usa">United States</option>
       </select><br>
 
-      <label for="subject">Subject</label><br>
-      <input type="text" id="subject" name="subject" placeholder="Subject"><br>
+      <label for="subj">Subject</label><br>
+      <input type="text" id="subj" name="subject" placeholder="Subject"><br>
 
-      <label for="message">Message</label><br>
-      <textarea id="message" name="message" placeholder="Write your message..." rows="10" cols="80"></textarea><br><br>
+      <label for="mess">Message</label><br>
+      <textarea id="mess" name="message" placeholder="Write your message..." rows="10" cols="80"></textarea><br><br>
 
       <input type="submit" value="Submit"><br>
       
     </form>
   </div>
+
+  <script src="contact.js"></script>
+
 </body>
   <footer>
   <a href="index.html">Home</a>

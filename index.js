@@ -8,6 +8,9 @@ const age = 52
 console.log(firstName, lastName, age);
 console.log('%s %s, %4.1f', firstName, lastName, age); // numbers: %d->52, %f->52.000000, %4.1f->52.0
 
+
+
+
 // objects!
 let person = {
     personName: 'Ilias',
@@ -59,6 +62,7 @@ else {
     greet('Good evening', person.personName);
 }
 
+console.log(greet);
 
 // Factory function: creates diff objects
 function createCircle(name, radius) {
@@ -88,6 +92,14 @@ console.log('Perimeter of ' + circle2.name + ' is: ' +
     + ', and the area is: ' +
     new Intl.NumberFormat("gr-In", {style: "unit", unit: "meter", maximumFractionDigits: 2}).format(circle2.area) + '2');
 
+document.cookie = "name=oeschger; SameSite=None; Secure";
+document.cookie = "favorite_food=tripe; SameSite=None; Secure";
+
+
+function showCookies() {
+  const output = document.getElementById("cookies");
+  output.textContent = `> ${document.cookie}`;
+}
 
 // canvas: draw the circles above!
 //const canvas = document.querySelector("canvas");
