@@ -1,0 +1,52 @@
+/* Style input texts*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* style the sumbit button */
+input[type=submit] {
+  background-color: #4067DB;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* when hovering button */
+input[type=submit]:hover {
+  background-color: #4A2D10;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  display: block;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: #fff;
+}
+

@@ -71,6 +71,9 @@ function createCircle(name, radius) {
    
 }
 
+let test1 = '55';
+console.log("Test1: " + test1);
+
 // Create 2 obj
 const circle1 = createCircle('Circle 1', 50);
 const circle2 = createCircle('Circle 2', 100);
@@ -87,13 +90,13 @@ console.log('Perimeter of ' + circle2.name + ' is: ' +
 
 
 // canvas: draw the circles above!
-const canvas = document.querySelector("canvas");
-const ctx = canvas.getContext("2d");
+//const canvas = document.querySelector("canvas");
+//const ctx = canvas.getContext("2d");
 
-ctx.beginPath();
-ctx.arc(circle1.radius + 1, circle1.radius + 1, circle1.radius, 0, 2 * Math.PI);
-ctx.stroke();
+//ctx.beginPath();
+//ctx.arc(circle1.radius + 1, circle1.radius + 1, circle1.radius, 0, 2 * Math.PI);
+//ctx.stroke();
 
-ctx.beginPath();
-ctx.arc(circle1.radius * 2 + circle2.radius, circle2.radius + 1, circle2.radius, 0, 2 * Math.PI);
-ctx.stroke();
+//ctx.beginPath();
+//ctx.arc(circle1.radius * 2 + circle2.radius, circle2.radius + 1, circle2.radius, 0, 2 * Math.PI);
+//ctx.stroke();

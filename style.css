@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Cabin";
+  src: url('./fonts/Cabin-Regular.otf') format('opentype');
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 100%);
+  line-height: 1.5;
+  font-family: "Cabin";
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
